@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inconsolata:wght@500;600;700&family=Open+Sans:wght@400;600;700&family=PT+Serif:wght@700&family=Poppins:wght@400;600&family=Roboto:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inconsolata:wght@500;600;700&family=Open+Sans:wght@400;600;700&family=PT+Serif:wght@700&family=Poppins:wght@400;600&family=Roboto:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;;
+    padding: 0;
+}
+
+body{
+    max-width: 1920px;
+    height: 1080px;
+    background: #EEEEEE;
+    border: 16px solid #D8D8D8;
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 276px;
+    
+}
+
+.Card{
+    width: 360px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.image{
+    width: 360px;
+    height: 216px;
+    display: flex;
+}
+
+.tortellini{
+    border-radius: 16px 16px 0px 0px;
+}
+
+.white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin-top: 16px;
+    margin-left: 304px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.ivector{
+    width: 7.95px;
+    height: 18px;
+    color: #374A59;
+}
+
+
+.titleLogo{
+    display: flex;
+}
+
+.title{
+    display: inline-block;
+    width: 198px;
+    height: 25px;
+    font-size: 24px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.01em;    
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.redCircle{
+    margin-left: 57px;
+    margin-top: 34px;
+    background-color: #F8593B;
+}
+
+.greenCircle{
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 246px;
+    background-color: #2ECC71;
+}
+
+.LeafLogo{
+    height: 14px;
+    width: 10.05px;
+
+}
+.yellowCircle{
+    margin-left: 9px;
+    margin-top: 34px;
+    background-color: #FFC22B;
+}
+
+.yellowCircle2{
+    margin-left: 90px;
+    margin-top: 34px;
+    background-color: #FFC22B;
+}
+
+.fireLogo{
+    width: 10.5px;
+    height: 14px;
+}
+.wheatLogo{
+    width: 14px;
+    height: 14px;
+}
+
+.description{
+    width: 312px;
+    height: 75px;
+    margin-top: 23px;
+    margin-left: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E798C;
+}
+
+.information{
+    display: flex;
+    margin-top: 24px;
+}
+
+.info{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #A5ADBB;
+}
+
+.cal{
+    position: absolute;
+    width: 56px;
+    height: 25px;
+    margin-left: 24px;
+}
+.date{
+    position: absolute;
+    width: 117px;
+    height: 25px;
+    margin-left: 123px;
+}
+
+.degree{
+    position: absolute;
+    width: 53px;
+    height: 25px;
+    margin-left: 283px;
+}
+
+.priceOrder{
+    display: flex;
+}
+
+.price{
+    display: flex;
+    margin-top: 66px;
+    margin-bottom: 41px;
+}
+
+.new{
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 25px;
+    color: #081F32;
+    margin-left: 24px;
+}
+
+.old{
+    width: 73px;
+    height: 25px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #F8593B;
+    text-decoration: line-through;
+    margin-left: 120px;
+
+
+    
+}
+
+.btn{
+    position: absolute;
+    margin-top: 58px;
+    width: 114px;
+    height: 44px;
+    border-radius: 4px;
+    background-color:#2ECC71;
+    margin-left: 222px;
+    border: none;
+}
+
+.btnText{
+    width: 114px;
+    height: 26px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.18em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
+
+
